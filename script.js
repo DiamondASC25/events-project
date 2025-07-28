@@ -49,10 +49,10 @@ displayButton.style.marginTop = "10px";
 displayButton.onclick = function() {
     if(div.style.display != "none"){
         div.style.display = "none";
-        displayButton.innerHTML = "Show";
+        displayButton.innerHTML = "show";
     }else{
         div.style.display = "block";
-        displayButton.innerHTML = "Hide";
+        displayButton.innerHTML = "hide";
     }
 }
 
